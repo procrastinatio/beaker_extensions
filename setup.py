@@ -29,5 +29,6 @@ setup(name='beaker_extensions',
       dynomite = beaker_extensions.dynomite_:DynomiteManager
       ringo = beaker_extensions.ringo:RingoManager
       cassandra = beaker_extensions.cassandra:CassandraManager
+      sdb = beaker_extensions.simpledb_:SimpleDBManager
       """,
       )
